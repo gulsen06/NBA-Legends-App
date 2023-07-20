@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #f4d467;
+}
+.container {
+  background-image: url("./assets/nba.jpg");
+}
+
+.image-item {
+  border: 1px solid red;
+  width: 288px;
+  height: 30vh;
+  overflow: hidden;
+  width: 250px;
+}
+.card-img-top {
+  transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(0.95);
+}
